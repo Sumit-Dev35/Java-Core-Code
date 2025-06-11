@@ -4,5 +4,7 @@ public class MathFunction{
     System.out.println(Math.floor(4.55));
     System.out.println(Math.ceil(-9.10));
     System.out.println(Math.random());
+    System.out.println(Math.PI);
+    System.out.println(Math.E);
   }
 }
