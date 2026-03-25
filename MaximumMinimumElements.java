@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class MaximumMinimumElements {
 
     public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class MaximumMinimumElements {
             minElement = Math.min(minElement, arr[i]);
             maxEelemnt = Math.max(maxEelemnt, arr[i]);
         }
-        System.out.println(minElement + " " + maxEelemnt);
+        System.out.println(minElement +" " + maxEelemnt);
         scanner.close();
     }
 }
